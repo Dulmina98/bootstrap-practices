@@ -1,0 +1,35 @@
+.bootstrap-components {
+  position: relative;
+  z-index: +50;
+
+  .navbar-bg {
+    background: rgba(140, 82, 255, 0.5);
+
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 25px;
+    }
+
+    .nav-link {
+      color: white;
+      margin-left: 20px;
+    }
+  }
+
+  .main-container {
+    margin-top: 20px;
+
+    .local-btn {
+      margin-top: 10px;
+
+      &:hover {
+        background: red;
+      }
+    }
+
+    .card-main-container {
+      width: 275px;
+      font-size: 15px;
+    }
+  }
+}

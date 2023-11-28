@@ -6,16 +6,25 @@
   position: relative;
   overflow-y: hidden;
 
-  .col, .column {
+  .btn {
+    width: 100%;
     background: #8C52FF;
-    border: 2px solid #121212;
-    height: 250px;
-    padding: 10px;
+    border: none;
+
+    &:hover {
+      background: #C0DA2A;
+      color: #121212;
+    }
+
+    &:active {
+      background: #C0DA2A !important;
+      color: #121212;
+    }
   }
 
-  .column {
-    background: #C0DA2A;
-    color: #121212;
+  h3 {
+    margin-bottom: 20px;
+    color: #C0DA2A;
   }
 
   .main-container {
