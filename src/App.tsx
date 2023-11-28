@@ -6,7 +6,7 @@ import {GridSystem} from "./pages/GridSystem";
 function App() {
     return (
         <div className="App">
-            <div className={"main-title"}>Bootstrap - Grid System Breakpoints</div>
+            <div className={"main-title"}>Bootstrap - Grid System</div>
             <GridSystem/>
             <img src="/assets/images/logo.png" alt="logo" className={"bg-logo"}/>
             <div className={"program-name left"}>Coder Catalyst Program</div>
