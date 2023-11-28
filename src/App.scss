@@ -6,11 +6,16 @@
   position: relative;
   overflow-y: hidden;
 
-  .col {
+  .col, .column {
     background: #8C52FF;
     border: 2px solid #121212;
     height: 250px;
     padding: 10px;
+  }
+
+  .column {
+    background: #C0DA2A;
+    color: #121212;
   }
 
   .main-container {
