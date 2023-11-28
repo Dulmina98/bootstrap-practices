@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import GridSystem from "./pages/GridSystem";
+import {GridSystem} from "./pages/GridSystem";
 
 function App() {
     return (
