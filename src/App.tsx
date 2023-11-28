@@ -6,7 +6,7 @@ import {Breakpoints} from "./pages/Breakpoints";
 function App() {
     return (
         <div className="App">
-            <div className={"main-title"}>Bootstrap - Grid System</div>
+            <div className={"main-title"}>Bootstrap - Grid System Breakpoints</div>
             <Breakpoints/>
             <img src="/assets/images/logo.png" alt="logo" className={"bg-logo"}/>
             <div className={"program-name left"}>Coder Catalyst Program</div>

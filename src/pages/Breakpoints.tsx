@@ -8,27 +8,29 @@ export function Breakpoints() {
         <div className="main-container">
             <Container>
                 <Row>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>1 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>2 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>3 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>4 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>5 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>6 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>7 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>8 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>9 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>10 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>11 of 12</Col>
-                    <Col xs={12} sm={6} lg={4} xl={1} className={"column"}>12 of 12</Col>
+                    <Col sm={12} lg={6} xl={3} className={"column"}>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Architecto eveniet facilis iusto laboriosam nisi optio praesentium quia quidem sapiente
+                        sequi? Accusantium architecto enim rem sequi.</Col>
+                    <Col sm={12} lg={6} xl={3} className={"column"}>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Architecto eveniet facilis iusto laboriosam nisi optio praesentium quia quidem sapiente
+                        sequi? Accusantium architecto enim rem sequi.</Col>
+                    <Col sm={12} lg={6} xl={3} className={"column"}>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Architecto eveniet facilis iusto laboriosam nisi optio praesentium quia quidem sapiente
+                        sequi? Accusantium architecto enim rem sequi.</Col>
+                    <Col sm={12} lg={6} xl={3} className={"column"}>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Architecto eveniet facilis iusto laboriosam nisi optio praesentium quia quidem sapiente
+                        sequi? Accusantium architecto enim rem sequi.</Col>
                 </Row>
                 <Row>
-                    <Col>1 of 2</Col>
-                    <Col>2 of 2</Col>
-                </Row>
-                <Row>
-                    <Col>1 of 3</Col>
-                    <Col>2 of 3</Col>
-                    <Col>3 of 3</Col>
+                    <Col>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eveniet facilis iusto
+                        laboriosam nisi optio praesentium quia quidem sapiente sequi? Accusantium architecto enim rem
+                        sequi.</Col>
+                    <Col>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eveniet facilis iusto
+                        laboriosam nisi optio praesentium quia quidem sapiente sequi? Accusantium architecto enim rem
+                        sequi.</Col>
+                    <Col>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eveniet facilis iusto
+                        laboriosam nisi optio praesentium quia quidem sapiente sequi? Accusantium architecto enim rem
+                        sequi.</Col>
                 </Row>
             </Container>
         </div>
