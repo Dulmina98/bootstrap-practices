@@ -7,6 +7,12 @@ function App() {
     return (
         <div className="App">
             <div className={"main-title"}>CSS Positions</div>
+            <header className="sticky-header">
+                <h1>Sticky Header</h1>
+            </header>
+            <Positions/>
+            <Positions/>
+            <Positions/>
             <Positions/>
             <img src="/assets/images/logo.png" alt="logo" className={"bg-logo"}/>
             <div className={"program-name left"}>Coder Catalyst Program</div>

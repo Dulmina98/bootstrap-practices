@@ -5,7 +5,6 @@
   color: #fff;
   font-size: 18px;
   position: relative;
-  overflow-y: hidden;
 
   .col, .column {
     background: #8C52FF;
@@ -54,6 +53,20 @@
 
     &.right {
       right: 20px;
+    }
+  }
+
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #C0DA2A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+
+    h1 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #121212;
     }
   }
 }
